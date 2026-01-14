@@ -33,11 +33,6 @@ class AppTheme {
         elevation: 0,
         surfaceTintColor: Colors.transparent,
       ),
-      cardTheme: CardTheme(
-        color: AppColors.surfaceDark,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        elevation: 0,
-      ),
     );
   }
 }

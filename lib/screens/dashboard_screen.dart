@@ -418,8 +418,8 @@ class _SpendingChart extends StatelessWidget {
                           default:
                             text = '';
                         }
-                        return SideTitleWidget(
-                          axisSide: meta.axisSide,
+                        return Padding(
+                          padding: const EdgeInsets.only(top: 8.0),
                           child: Text(text, style: style),
                         );
                       },
